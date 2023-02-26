@@ -10,19 +10,19 @@ int y = int.Parse(Console.ReadLine());
 
 if (x > 0 && y > 0)
 {
-    ConsoleWriteLine("1 четверть");
+    Console.WriteLine("1 четверть");
 }
 else if (x < 0 && y > 0)
 {
-    ConsoleWriteLine("2 четверть");
+    Console.WriteLine("2 четверть");
 }
 else if (x < 0 && y < 0)
 {
-    ConsoleWriteLine("3 четверть");
+    Console.WriteLine("3 четверть");
 }
 else if (x > 0 && y < 0)
 {
-    ConsoleWriteLine("4 четверть");
+    Console.WriteLine("4 четверть");
 }
 else
     Console.WriteLine("Четверть не определена");
